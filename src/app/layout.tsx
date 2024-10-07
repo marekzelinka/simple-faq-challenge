@@ -15,7 +15,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Next.js App Template",
+  title: "Simple Frequently Asked Questions (FAQ)",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
