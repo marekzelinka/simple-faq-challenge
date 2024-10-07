@@ -15,14 +15,14 @@ export default function Home() {
               <h2 className="text-4xl font-bold tracking-tight text-gray-900">
                 Frequently Asked Questions
               </h2>
-              <p className="mt-4 text-base/7 text-gray-600">
+              <p className="mt-4 text-base/6 text-gray-600">
                 Browse through the most frequently asked questions
               </p>
             </div>
           </div>
         </header>
         <div className="flex-1 bg-gray-50 py-8">
-          <div className="mx-auto max-w-3xl px-6">
+          <div className="mx-auto max-w-2xl px-6">
             <dl className="divide-y divide-gray-900/10">
               <Disclosure as="div" defaultOpen className="py-8">
                 <dt>
@@ -38,13 +38,12 @@ export default function Home() {
                 </dt>
                 <DisclosurePanel
                   as="dd"
-                  className="prose prose-a:text-blue-600 mt-6 pr-12"
+                  className="prose prose-blue mt-6 pr-12"
                 >
                   <p>You can track your order using the following steps:</p>
                   <ol role="list">
                     <li>
-                      Go to the{" "}
-                      <a href="/order-tracking.html">order tracking</a> page.
+                      Go to the <a href="#">order tracking page</a>.
                     </li>
                     <li>Enter your order number and email address.</li>
                     <li>
@@ -54,7 +53,7 @@ export default function Home() {
                   </ol>
                   <p>
                     If you encounter any issues, please visit our{" "}
-                    <a href="help-center.html">help center</a>.
+                    <a href="#">help center</a>.
                   </p>
                 </DisclosurePanel>
               </Disclosure>
@@ -72,13 +71,13 @@ export default function Home() {
                 </dt>
                 <DisclosurePanel
                   as="dd"
-                  className="prose prose-a:text-blue-600 mt-6 pr-12"
+                  className="prose prose-blue mt-6 pr-12"
                 >
                   <p>
                     We offer a 30-day return policy on most items. Here are some
                     key points:
                   </p>
-                  <ol role="list">
+                  <ul role="list">
                     <li>
                       <strong>Items must be in original condition</strong>:
                       Unworn, unused, and unwashed.
@@ -92,10 +91,10 @@ export default function Home() {
                       <strong>Proof of purchase</strong>: A receipt or proof of
                       purchase is required.
                     </li>
-                  </ol>
+                  </ul>
                   <p>
                     For more detailed information, read our full{" "}
-                    <a href="return-policy.html">return policy</a>.
+                    <a href="#">return policy</a>.
                   </p>
                 </DisclosurePanel>
               </Disclosure>
